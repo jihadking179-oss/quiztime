@@ -1,0 +1,20 @@
+{
+  "overview": "A clean, forward-only quiz app with a home screen, 10 multiple-choice questions, and a results screen showing your score. Answer all questions and see how many you got right.",
+  "features": [
+    "Home screen with quiz intro and Start button",
+    "10 multiple-choice questions, one at a time",
+    "Progress indicator showing current question number",
+    "Answer highlighting when an option is selected",
+    "Results screen with final score, correct and incorrect counts",
+    "Restart button to retake the quiz from the beginning"
+  ],
+  "category": "education",
+  "tags": [
+    "quiz",
+    "trivia",
+    "education",
+    "multiple-choice",
+    "game"
+  ],
+  "last_updated": "2026-05-02T00:20:02.118Z"
+}

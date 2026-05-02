@@ -1,0 +1,20 @@
+type QuizResult = 
+ record {
+   correctCount: nat;
+   incorrectCount: nat;
+   score: nat;
+   totalQuestions: nat;
+ };
+type QuestionId = nat;
+type Question = 
+ record {
+   correctIndex: nat;
+   id: QuestionId;
+   options: vec text;
+   "text": text;
+ };
+type AnswerSubmission = record {answers: vec nat;};
+service : {
+  getQuestions: () -> (vec Question) query;
+  submitAnswers: (submission: AnswerSubmission) -> (QuizResult);
+}
